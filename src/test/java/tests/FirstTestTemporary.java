@@ -14,15 +14,13 @@ public class FirstTestTemporary extends Hooks {
         HomePage homePage = new HomePage(getWebDriver());
         homePage.navigateToManagerPage();
 
-        BankManagerPage bankManagerPage = new BankManagerPage(getWebDriver();
+        BankManagerPage bankManagerPage = new BankManagerPage(getWebDriver());
 
         bankManagerPage.navigateToAddCustomerPage();
 
         PropertyUtility propertyUtility = new PropertyUtility("AddCustomerDataA");
         AddCustomerObject addCustomerObject = new AddCustomerObject(propertyUtility.getAllData());
         AddCustomerPage addCustomerPageA = new AddCustomerPage(getWebDriver());
-
-
 
     }
 }
